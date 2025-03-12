@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fafc;
+    color: #2d3748;
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #4a5568;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #718096;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 2;
+    max-width: 700px;
+    margin: 20px;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4a5568;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #4a5568;
+}
+
+/* Team Section Styles */
+.team-section {
+    padding: 60px 20px;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #2d3748;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #718096;
+}
+
+/* Testimonial Section Styles */
+.testimonial-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #f7fafc;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    font-size: 18px;
+    color: #4a5568;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content, .team-content, .testimonials {
+        flex-direction: column;
+    }
+
+    .image-container, .text-container, .team-member, .testimonial {
+        max-width: 100%;
+    }
+}

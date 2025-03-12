@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Insights Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #004080;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #002244;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #004080;
+        }
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .team img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .service, .resource {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #004080;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Academic Insights Hub</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#resources">Resources</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#dashboard">User Dashboard</a>
+</nav>
+
+<div id="home" class="banner">
+    <h2>Empowering Academic Excellence</h2>
+    <p>Your one-stop hub for academic resources, assignments, and project guidance.</p>
+    <button>Explore Resources</button>
+    <button>Join Now</button>
+</div>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Academic Insights Hub is a dedicated platform designed to support students and educators in their academic journeys. We believe in the power of education to transform lives, and we strive to provide the best resources and guidance available.</p>
+        <h3>Our Mission</h3>
+        <p>To provide comprehensive academic support and resources that empower students to excel in their educational pursuits.</p>
+        <h3>Our Vision</h3>
+        <p>To be a leading online platform for academic guidance, fostering growth and success.</p>
+        <h3>Our Values</h3>
+        <p>Integrity, Innovation, Excellence, Collaboration.</p>
+        <div class="team">
+            <h3>Meet the Team</h3>
+            <img src="edwin.png" alt="Edwin Kinuthia">
+            <p><strong>Edwin Kinuthia</strong></p>
+            <p>Founder and Lead Educator</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Assignment Assistance</h3>
+            <p>We help students with their assignments by providing detailed guidance and support to ensure their success.</p>
+        </div>
+        <div class="service">
+            <h3>Project Guidance</h3>
+            <p>Our team offers expert advice and support for academic projects, from conception to completion.</p>
+        </div>
+        <div class="service">
+            <h3>Business Plans</h3>
+            <p>Get professional help in creating and evaluating business plans that stand out.</p>
+        </div>
+        <div class="service">
+            <h3>Research Support</h3>
+            <p>We provide assistance with research projects, papers, and proposals, ensuring thorough and accurate work.</p>
+        </div>
+        <div class="service">
+            <h3>Progress Tracking</h3>
+            <p>Our tools help you track your academic progress and set goals for future success.</p>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <h2>Resources</h2>
+        <div class="resource">
+            <h3>Library</h3>
+            <p>Downloadable academic materials, templates, and guides to support your studies.</p>
+        </div>
+        <div class="resource">
+            <h3>Blog</h3>
+            <p>Read articles, tips, and updates on academic topics, study habits, and more.</p>
+        </div>
+        <div class="resource">
+            <h3>Tools & Calculators</h3>
+            <p>Access academic tools like plagiarism checkers, citation generators, and more.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <h3>Case Studies</h3>
+        <p>Examples of successful projects and assignments we've helped with.</p>
+        <h3>Testimonials</h3>
+        <p>Read what our satisfied users have to say about our services.</p>
+        <h3>Showcase</h3>
+        <p>Display of our collaborations with educational institutions and organizations.</p>
+    </section>
+
+    <section id="contact" class="section contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <h3>Contact Information</h3>
+        <p>Email: info@academicinsights.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Follow us on <a href="#">LinkedIn</a>, <a href="#">Facebook</a>, <a href="#">Twitter</a>.</p>
+    </section>
+
+    <section id="dashboard" class="section">
+        <h2>User Dashboard</h2>
+        <p><a href="#">Register</a> | <a href="#">Login</a></p>
+        <p>Track your progress, manage your profile, and access personalized resources.</p>
+    </section>
+
+    <section id="faqs" class="section">
+        <h2>FAQs</h2>
+        <p>Find answers to common questions about our services, registration, and more.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Academic Insights Hub. All rights reserved.</p>
+    <p><a href="#">Subscribe to our newsletter</a> for updates and academic tips.</p>
+</footer>
+
+</body>
+</html>
