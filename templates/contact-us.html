@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="/styles/contact-us.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="text-center">
+                <h1>Contact Us</h1>
+                <p>Fill up the form below to send us a message.</p>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form" >
+                <input type="hidden" name="access_key" value="a263c8d3-d16a-412c-ad4b-8aa609fa0612">
+                <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+  
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Fname Lname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="you@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="+254X-XX-XXX-XXX" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+                <p class="result-message" id="result"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

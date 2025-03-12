@@ -1,0 +1,91 @@
+<head>
+    <title>Fill in Form</title>
+    
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3cs/4/w3.css">
+<link rel="stylesheet" href="/styles/index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+ <!-- Form  -->
+ <div class="container"> 
+    <h1 style="text-align: Center; font-size:50px""><b>Academic Insights Query Form</b> </h1> 
+<hr>
+ 
+<form action="https://api.web3forms.com/submit" method="POST" id="form" >
+    <input type="hidden" name="access_key" value="a263c8d3-d16a-412c-ad4b-8aa609fa0612">
+     <div class="mb-4">
+        <label for="name" class="block text-gray-700">Name:</label>
+        <input type="text" id="name" name="Full-Names"placeholder="Enter your name here" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" recquired>
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="email" class="block text-gray-700">Email Adress:</label>
+        <input type="email" id="email" Name="Email-Adress"placeholder="Enter your email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="phone" class="block text-gray-700">Phone Number:</label>
+        <input type="tel" id="phone"name="Phone-Number" placeholder="Enter your phone number" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="name" class="block text-gray-700">Instiution:</label>
+        <input type="text" id="name" name="Institution-Name"placeholder="Only for student applicants" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="county" class="block text-gray-700">County:</label>
+        <input type="text" id="county" name="County-From"placeholder="Enter your county name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="application-type" class="block text-gray-700">Application Type</label>
+        <select id="application-type" name="Application-Type"class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+            <option value="" disabled selected>Select application type</option>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="more-info" class="block text-gray-700">Describe Your Application:</label><br>
+        <textarea id="more-info" rows="4" name="Application description"placeholder="Clarify you application. Project, code snippets,business plans..." class="w-full px-8 py-6 border rounded-5g focus:outline-none focus:ring-2 focus:ring-indigo-400 " cols="45"></textarea>
+    </div>
+    <hr>
+    <div class="mb-4">
+        <label for="file-upload" class="block text-gray-700">Upload Any Supporting Document</label>
+        <input type="file" id="file-ubrpload" name="supportive-document"class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+    </div>
+ <hr>
+     <label for="additional_info">Additional requests:</label><br>
+     <textarea id="additional_info" name="additional_info" rows="4" cols="45" placeholder="Enter any additional information here..."></textarea><br>
+ 
+ <hr> 
+     <input class="button2" type="reset" value="Reset">
+     <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none:bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400">
+        submit your details
+    </button>
+    </div>
+
+   </form>
+  </div>
+   
+   <!-- Navigation bar -->
+   <!-- Navigation bar -->
+   
+   <!-- Image of location/map -->
+  <img src="./images/istockphoto-1294019348-612x612" class="w3-image w3-greyscale-min" style="width:100%;height:400px;">
+  
+     <!-- Footer -->
+ <h2 class="w3-wide w3-center">CONTACT</h2>
+ <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+   
+         <i class="fa fa-envelope" style="width:30px"> </i> <a href="mailto:edwinmwangikinuthia@gmail.com">edwinmwangikinuthia@gmail.com</a><br>
+   <i class="fa fa-telegram w3-hover-opacity "></i>
+   <a href="https://www.facebook.com/edu.zang.1/" target="_blank" rel="noopener noreferrer">Feedback</a>
+ </body>
